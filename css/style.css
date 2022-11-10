@@ -1,7 +1,8 @@
 
 body {
-  background: black;
+  background-color: black;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .content {
@@ -9,36 +10,30 @@ body {
     margin: auto;
   }
 
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.header--main {
     font-weight: normal;
     font-size: 40px;
     color: white;
-    text-align: center;
 }
 
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.secondary {
     font-weight: 300;
     font-size: 42px;
-    text-align: center;
     color: white;
+}
+
+.sub-header {
+    color: gray;
+    font-size: 21px;
+}
+
+.link {
+    color: aquamarine;
+    font-size: 16px;
+    
 }
 
 footer {
     color: gray;
     text-align: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: gray;
-    font-size: 21px;
-}
-
-a {
-    color: aquamarine;
-    font-size: 16px;
-    
 }
